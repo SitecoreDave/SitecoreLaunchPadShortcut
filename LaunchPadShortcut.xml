@@ -1,0 +1,56 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>LaunchPadShortcut</PackageName>
+      <Author>David Walker</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License>&lt;p&gt;Open Source - no warranties, use at your own risk.&lt;/p&gt;&lt;p&gt;This package simply creates two content items within the Core database /sitecore/content:&lt;/p&gt;&lt;ul/&gt;&lt;li&gt;Applications/Launch Pad&lt;/li&gt;&lt;li&gt;Documents and settings/All users/Start menu/Right/Launch Pad&lt;/li&gt;&lt;/ul&gt;&lt;a target=_blank href=http://RadicalDave.com/Sitecore/&gt;http://RadicalDave.com/Sitecore/&lt;/a&gt; for more details</License>
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>RadicalDave.com</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Launch Pad/{4B7B2CBB-4233-4DAE-8BC8-937209459A90}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>LaunchPadApplication</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Right/Launch Pad/{1151CA2E-2CD7-4F4E-8EA4-80DE1B695B52}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>LaunchPadShortcut</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
